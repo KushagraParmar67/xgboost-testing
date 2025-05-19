@@ -164,5 +164,5 @@ if __name__ == '__main__':
 
     df = pd.DataFrame(rows)
     print(df)
-    #  this is for predicting 
-    # update_predictions_csv(df, version_name='pred_RS-MA-Vol-Tss-Mse-RSCV-FT')
+    #  this is for predicting and saving the result in a csv format
+    update_predictions_csv(df, version_name='pred_RS-MA-Vol-Tss-Mse-RSCV-FT')
